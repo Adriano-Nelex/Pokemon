@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css?family=Wallpoet');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    background: url(../images/pokeagenda.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+    width: 99%;
+    height: 600px;
+
+}
+
+.formulario{
+	border-radius: 15px;
+    color: #fff;
+    background-color: #00000096;
+    padding: 60px 0px;
+    margin: 0px 300px;
+}
+
+form{
+	text-align: center;
+	padding-top: 2%;
+}
+
+.form-group{
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+}
+
+input{
+	border: 2px solid #d1d1d1;
+    border-radius: 12px;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #00000096;
+}
+
+button{    
+    margin-top: -15px;
+    position: absolute;
+    background-color: #c12424;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid #d1d1d1;
+    border-radius: 15px;
+    transition: all .2s;
+    padding: 4px 18px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.d-none {
+    display: none!important;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Wallpoet', cursive;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-left: 73px;
+    text-align: left;
+}
+
+p, label{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+    margin: 3% 23%;
+}
+
+.cidade{
+    margin-left: -90px;
+    margin-top: -25px;
+}
+
+.campo-invalido{
+    font-size: 15px;
+    color: red;
+    background: #ffffff8a;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.card{
+    width: 18rem;
+    padding-bottom: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+.image-weather{
+    margin: 0px 180px;
+}
+
+.card-body{
+    margin: -63px 0px;
+}
+
+.openweather{
+    padding-bottom: 80px;
+}
